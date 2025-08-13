@@ -191,18 +191,19 @@ user-select: none;
 .services  h1 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
 }
 .services-container {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content:space-around;
     align-items: center;
 }
 
 .service1{
+    background-color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,16 +213,24 @@ user-select: none;
 .service1 img{
     width: 300px;
     height:200px;
+    padding: 10px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .service1 p{
-    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
     width: 300px;
     text-align: justify;
     
 }
 
+.service1 h3{
+    padding-left:10px;
+    font-size: 20px;
+}
 
 
 
@@ -713,9 +722,9 @@ padding: 110px 30%;
 }
 
 .main img{
-    margin-top:30%;
-    height: 350px;
-    width: 350px;
+    margin-top: 1%;
+    height: 110%;
+    width: 110%;
 }
 
 .abt-text{
