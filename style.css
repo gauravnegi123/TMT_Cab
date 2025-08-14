@@ -50,7 +50,7 @@ html{
     position: relative;
     z-index: 1;
     width: 100%;
-    height:100vh;
+    height:100%;
     background-image: linear-gradient(rgba(1, 0, 5, 0.3), rgba(4, 1, 17, 0.3));
 }
 
@@ -69,6 +69,7 @@ nav{
 
 nav .logo{
     width: 60px;
+    margin:2vh;
     margin-left: 2%;
     user-select: none;
 }
