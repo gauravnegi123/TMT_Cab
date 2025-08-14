@@ -126,7 +126,7 @@ nav  ul  li  a{
 }
 @media (max-width: 430px) {
     nav {
-        height: 9vh; /* slightly smaller to fit mobile better */
+        height: 5vh; /* slightly smaller to fit mobile better */
     }
 
     nav ul li {
