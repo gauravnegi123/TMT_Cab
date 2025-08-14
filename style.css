@@ -79,7 +79,7 @@ nav .logo{
 
 nav ul li{
     list-style: none;
-    margin-left: 6vh;
+    margin-left: 2rem;
     display: inline-block;
     display: flex;
 }
