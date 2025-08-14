@@ -82,6 +82,7 @@ nav ul li{
     margin-left: 2rem;
     display: inline-block;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .navbar{
