@@ -195,8 +195,8 @@ user-select: none;
     font-weight: 700;
 }
 .services-container {
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     justify-content:space-around;
     align-items: center;
