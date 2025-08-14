@@ -82,6 +82,7 @@ nav ul li{
     display: inline-block;
     display: flex;
     flex-wrap: nowrap;
+    flex-shrink: 1;
 }
 
 .navbar{
