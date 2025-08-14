@@ -630,6 +630,10 @@ padding: 110px 30%;
     transform: scale(1.06);
 }
 
+.ride-option-a p{
+    color:rgba(0, 0, 0, 0.7);
+}
+
 
 
 
@@ -824,6 +828,9 @@ input {
     border-radius: 5px;
     font-size: 12px;
 }
+input:focus {
+    outline: solid .5px;
+}
 
 .popup-content label{
     font-size: 10px;
@@ -841,7 +848,7 @@ input {
 
 }
 
-.toggle-password {
+#toggle-password {
   position: absolute;
   right: 10px;
   top: 30%;
@@ -851,7 +858,7 @@ input {
   user-select: none;
 }
 
-.toggle-password:active{
+#toggle-password:active{
     font-size:16px;
 }
 
