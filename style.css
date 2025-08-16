@@ -793,12 +793,13 @@ padding: 110px 30%;
     position:absolute;
     cursor: pointer;
     top: 10px;
-    right: 15px;
+    right: 20px;
     left:95%;
-    font-size: 25px;    
-
+    font-size: 26px;    
 }
-
+.close.active{
+    color: red;
+}
 .tabs{
     display: flex;
     justify-content: space-between;
