@@ -515,7 +515,6 @@ padding: 110px 30%;
 
 
 .bookcab-content  h1{
-    display: flex;
     justify-content: center;
     user-select: none;
     text-align: center;
