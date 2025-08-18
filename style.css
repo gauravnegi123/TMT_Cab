@@ -30,7 +30,7 @@ html{
 
 .banner{
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     overflow: hidden;
     align-items: center;
@@ -41,7 +41,7 @@ html{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     pointer-events: none;;
 }
@@ -78,7 +78,7 @@ nav .logo{
 
 nav ul li{
     list-style: none;
-    margin-left: 2rem;
+    margin-left: clamp(0.4rem, 2vw, 2rem);
     display: inline-block;
     display: flex;
 }
@@ -86,13 +86,13 @@ nav ul li{
 .navbar{
     display: flex;
     flex-wrap: nowrap;
-    margin-right: 2rem;
+    margin-right:  clamp(0.4rem, 2vw, 2rem);
 }
 
 .navbar a{
     display: flex;
     flex-wrap: nowrap;
-    font-size: clamp(0.5rem, 2vw, 1.2rem);
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
     font-weight: 550;
     padding: 0.3em 0.6em;
     transition: all 0.4s ease;
@@ -122,19 +122,21 @@ nav ul li{
 .icon-1{
     
     margin-left: 0.37rem;
-    font-size:1.1rem ;
+    font-size: clamp(0.7rem, 2, 1.1rem);
 }
 .title  h1 {
 font-size: 10vh;
 font-weight: 750;
-text-shadow: 2px black;
+text-shadow: 2px 2px black;
 transition: ease 0.3s;
 user-select: none;
 }
 
 .title  h1:hover {
+   
     color:transparent;
     -webkit-text-stroke: 2px white;
+    text-shadow:none;
 }
 
 .title  p {
@@ -144,7 +146,7 @@ user-select: none;
 
 .button {
     margin-top: 5vh;
-    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
     display: inline-block;
     padding: 0.62rem 1.87rem;
     color: rgb(21, 74, 74);
@@ -179,15 +181,14 @@ user-select: none;
 .services  h1 {
     text-align: center;
     margin-bottom:3.12rem;
-    font-size: 2.2rem;
+    font-size: clamp(1.4rem, 5vw, 2.2rem);
     font-weight: 700;
 }
 .services-container {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: clamp(0.1rem, 5%, 10%);
+    padding-right: clamp(0.1rem, 5%, 10%);
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
 
@@ -200,25 +201,26 @@ user-select: none;
 }
 
 .service1 img{
-    width:18.75rem;
-    height:12.5rem;
-    padding: 0.62rem;
+    width: clamp(7rem, 18vw, 20rem);
+    height: clamp(6rem, 12vw, 13rem); 
+    padding-left: clamp(0.1rem, 1vw, 0.62rem);
+    padding-bottom: clamp(0.1rem, 1vw, 0.62rem);
+    object-fit: cover;
     border-radius: 10px;
     margin-bottom: 0.62rem;
 }
 .service1 p{
     font-family:'Times New Roman', Times, serif;
-    padding: 0.62rem;
-    font-size:0.92rem;
-    margin-top:o.62rem;
-    width: 18.75rem;
-    text-align: justify;
+    padding: clamp(0.1rem, 1vw, 0.62rem);
+    font-size: clamp(0.5rem, 1.5vw, 1rem);
+    width: clamp(7rem, 25vw, 18.75rem);
+    text-align:justify;
     
 }
 
 .service1 h3{
-    padding-left:0.62rem;
-    font-size:1.25rem;
+    padding-left: clamp(0.1rem, 1vw, 0.62rem);
+   font-size: clamp(0.8rem, 2vw, 1.35rem);
 }
 
 
