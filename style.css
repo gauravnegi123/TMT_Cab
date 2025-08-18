@@ -92,12 +92,12 @@ nav ul li{
 .navbar a{
     display: flex;
     flex-wrap: nowrap;
-    color: white;
     font-size: clamp(0.9rem, 2vw, 1.2rem);
     font-weight: 550;
     padding: 0.3em 0.6em;
-    text-decoration: none;
     transition: all 0.4s ease;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .navbar  a:hover{
@@ -110,13 +110,6 @@ nav ul li{
 
 .navbar  a.active {
   color: black;
-}
-
-nav  ul  li  a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.2em;
-    ;
 }
 
 .title{
