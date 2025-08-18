@@ -92,6 +92,7 @@ nav ul li{
 
 .navbar a{
     display: flex;
+    flex-wrap: nowrap;
     color: white;
     font-size: clamp(0.9rem, 2vw, 1.2rem);
     font-weight: 550;
